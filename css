@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #1f2933;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1f2933;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 25px;
+}
+
+.header .btn {
+  background: #0f766e;
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 8%;
+}
+
+.hero-text h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.hero-text span {
+  color: #0f766e;
+}
+
+.hero-text p {
+  color: #4b5563;
+  margin-bottom: 30px;
+}
+
+.primary {
+  background: #0f766e;
+  color: #fff;
+}
+
+.outline {
+  border: 2px solid #0f766e;
+  color: #0f766e;
+}
+
+.hero-image img {
+  width: 420px;
+}
+
+/* SERVICES */
+.services {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 40px;
+}
+
+.service-box {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 15px;
+  background: #f9fafb;
+}
+
+/* ABOUT */
+.about {
+  padding: 80px 8%;
+  background: #f1f5f9;
+  text-align: center;
+}
+
+.about-points span {
+  display: inline-block;
+  margin: 15px;
+  font-weight: 600;
+}
+
+/* CONTACT */
+.contact {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+}
+
+.contact button {
+  background: #0f766e;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero, .service-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 300px;
+    margin-top: 40px;
+  }
+}
